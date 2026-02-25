@@ -1,20 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+📘 Project Overview
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/004a4f0f-b4b8-4ead-a41e-bd5eec9fcb8f
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This project is a web-based resource library developed as part of the Full Stack Application Development (FSAD) course. The platform is designed to organize and provide easy access to educational materials such as textbooks, research papers, and study guides. It includes role-based access, where administrators can upload and manage resources, and users can search, view, and download materials. The front-end is built using React JS with a focus on clean UI, smooth navigation, and usability, aiming to enhance learning and research efficiency.
