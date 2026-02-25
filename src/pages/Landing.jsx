@@ -153,7 +153,7 @@ export default function Landing() {
             className="mt-20 relative rounded-[40px] overflow-hidden shadow-2xl border-8 border-white"
           >
             <img 
-              src="https://picsum.photos/seed/library/1200/600" 
+              src="https://images.pexels.com/photos/12064/pexels-photo-12064.jpeg" 
               alt="Library Preview" 
               className="w-full h-auto object-cover"
               referrerPolicy="no-referrer"
