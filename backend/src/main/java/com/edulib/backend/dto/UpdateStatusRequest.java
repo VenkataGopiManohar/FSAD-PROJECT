@@ -1,0 +1,19 @@
+package com.edulib.backend.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+
+public class UpdateStatusRequest {
+
+    @NotBlank
+    @Pattern(regexp = "active|suspended")
+    private String status;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+}
